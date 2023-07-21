@@ -1,12 +1,12 @@
 import React,{useState} from "react";
 
 const Tabs=()=>{
-    let [numtab,setNumtab]=useState("");
+    let [numtab,setNumtab]=useState("Tab 1");
 
     function handleFnc(e){
      setNumtab(e.target.dataset.tab);
     }
-    let[lettertab,setLettertab]=useState("");
+    let[lettertab,setLettertab]=useState("Tab A");
     function handleFnc1(e){
         setLettertab(e.target.dataset.tab);
     }
